@@ -7,19 +7,17 @@
 
 <body>
 <div class="header">  
-    <img  src="https://t4.ftcdn.net/jpg/05/84/26/61/360_F_584266196_lFkZt7CCgGrlhil83DsI0MyGvd8eSDoc.jpg" alt="eci" height="100" width="100">
+    <img id="el" src="https://t4.ftcdn.net/jpg/05/84/26/61/360_F_584266196_lFkZt7CCgGrlhil83DsI0MyGvd8eSDoc.jpg" alt="eci" height="100" width="100">
     <h1>Election Commission Of India </h1>
 
-    <a href="/Login Page/index.html" id="logout" > logout</a>
-
-
+    <!-- <a href="/Login Page/index.html" id="logout" > logout</a> -->
+    <div></div>
 
 </div>
-
+<form action="">
 <table id="voteing_elements">
     <tr>
-        <th>Election party symbol</th>
-        
+        <th>Election party symbol</th>    
         <th>Party Name</th>
         <th>Candidate Name</th>
         <th>Candidate Image </th>
@@ -33,7 +31,7 @@
         <td>BJP</td>
         <td>Narendra Damodardas Modi</td>
         <td><img src="https://pbs.twimg.com/profile_images/1645654864264044544/dfj2yFBy_400x400.jpg" alt="NDM"  height="90"  width="100"> </td>
-        <td><input type="radio" name="vote" id="Modi"></td>
+        <td><input type="radio" name="vote" id="Modi" required ></td>
 
     </tr>
 
@@ -41,19 +39,19 @@
         <td><img  id="tmcs"  src="https://ih1.redbubble.net/image.3588467389.4215/st,medium,507x507-pad,600x600,f8f8f8.webp" alt="tmc" height="90" width="90" ></td>
         
         <td>TMC</td>
-        <td>MAMATA BANERJEE</td>
+        <td>Mamata Banerjee</td>
         <td><img src="https://pbs.twimg.com/profile_images/1586388609388908545/fVBtJGLA_400x400.jpg" alt="KM" height="90" width="100"></td>
-        <td><input type="radio" name="vote" id="Magi"></td>
+        <td><input type="radio" name="vote" id="Magi" required></td>
 
     </tr>
 
     <tr>
         <td><img  id="congs" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Indian_National_Congress_hand_logo.svg/600px-Indian_National_Congress_hand_logo.svg.png" alt="cong" height="90" width="90"></td>
         
-        <td>CONGRESS</td>
-        <td>RAHUL GANDHI</td>
+        <td>INC</td>
+        <td>Rahul Gandhi</td>
         <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZg_W3ilX7a5rmeH0bFyRDHaAC_rmYQyVaW-n0wE-7R9HOJ8Ib350uY2jlk9pPe4Ky2eo&usqp=CAU" alt="SY" height="90" width="100"> </td>
-        <td><input type="radio"  name="vote" id="NILAY"></td>
+        <td><input type="radio"  name="vote" id="NILAY" required></td>
 
     </tr>
 
@@ -61,9 +59,9 @@
         <td><img id="aaps" src="https://www.hindusthansamachar.in/Encyc/2023/6/22/aap_720_H@@IGHT_0_W@@IDTH_600.jpg" alt="aap" height="90" width="90"></td>
         
         <td>AAP</td>
-        <td>Arvind kejriwal</td>
+        <td>Arvind Kejriwal</td>
         <td><img src="https://i.pinimg.com/474x/b5/65/cc/b565cc70c39aa73516f0fdfb84442463.jpg" alt="ak" height="90"  width="100"> </td>
-        <td><input type="radio" name="vote" id="AR"></td>
+        <td><input type="radio" name="vote" id="AR" required></td>
 
     </tr>
 
@@ -74,12 +72,13 @@
 
 <div class="container">
     <div class="vertical-center">
-        <a href="" class="buttons">VOTE</a>
+        <!-- <a href="" class="buttons">VOTE</a> -->
+        <button type="submit" class="buttons">VOTE</button>
+
     </div>
 </div>
-    
 
-
+</form>
 
 
 
